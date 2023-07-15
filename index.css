@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+@media screen and (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        margin-inline-start: 250px;
+        margin-block-start: 50px;
+        justify-content: center;
+        position: fixed;
+    }
+    
+}
+
+@
+body {
+  width: 1440px;
+
+}
+/* The three preview card wrapped in a section*/
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+/* the three preview card*/
+.first-box {
+  width: 280px;
+  height: 450px;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+.second-box {
+  width: 280px;
+  height: 450px;
+  background-color: hsl(184, 100%, 22%);
+}
+.third-box {
+  width: 280px;
+  height: 450px;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* The preview card headings/title */
+.sedans,
+.luxury,
+.suvs {
+  color: hsl(0, 0%, 95%);
+  font-family: 'big shoulders display';
+  font-size: 32px;
+}
+/* The paragraph below the preview card headings */
+.about-suvs,
+.about-sedans,
+.about-luxury {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'lexend deca';
+}
+/* The image, the headings and the paragraph wrapped in a div with classes */
+.box-one,
+.box-two,
+.box-three {
+  margin-inline-start: 40px;
+  margin-block-start: 50px;
+}
+
+/* the buttons below the paragraph of each Preview card */
+button {
+  width: 9.7em;
+  height: 3.3em;
+  border-radius: 5em;
+  border: none;
+  margin-block-start: 50px;
+}
+
+/* Color styling of each text within the buttons of each preview card */
+.sedan-button {
+  color: hsl(31, 77%, 52%);
+}
+.suv-button {
+  color: hsl(184, 100%, 22%);
+}
+.luxury-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.sedan-button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 2px solid white;
+}
+.suv-button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 2px solid white;
+}
+.luxury-button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 2px solid white;
+}
